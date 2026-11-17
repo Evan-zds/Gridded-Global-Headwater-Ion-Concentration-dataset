@@ -4,7 +4,7 @@ GriGHIC v1 (Gridded Global Headwater Ion Concentration database, version 1) is a
 
 This repository hosts:
 MyData.xlsx: The harmonized, quality-controlled global in-situ headwater hydrochemical observation database compiled from peer-reviewed literature and international water-quality monitoring networks.
-Model.py: The PyTorch implementation of our Physics-Informed Multi-Task Residual Neural Network, which simultaneously predicts all eight major ions while enforcing aqueous charge balance electroneutrality, carbonate equilibrium speciation, and electrical conductivity conservation within the composite loss function.
+Model.py: The PyTorch implementation of our charge-balance-constrained, multi-task deep-learning model, which simultaneously predicts all eight major ions while enforcing aqueous charge balance electroneutrality, carbonate equilibrium speciation, and electrical conductivity conservation within the composite loss function.
 
 The full 22-year monthly gridded NetCDFproducts and pixel-wise uncertainty layers are permanently archived on Zenodo：
 · Cation Repository: Potassium (K⁺), Sodium (Na⁺), Calcium (Ca²⁺), and Magnesium (Mg²⁺) (https://doi.org/10.5281/zenodo.22939901).
